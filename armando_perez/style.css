@@ -4,8 +4,11 @@ html, body {
 }
 
 body {
-  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg);
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg')no-repeat;
+  background-size: 100%;
+
 }
+
 .header ul, .footer ul {
     padding: 0 20px;
     margin: 0;
@@ -23,19 +26,23 @@ body {
     color: #f01251;
 }
 
+.thumbnail {
+    padding: 0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0px;
+    border: 0px;
+}
+
+.thumbnail img {
+
+    width: 100%;
+    display: block;
+}
+
 .header li.active a {
     background-color: #f01251;
 }
 
 .header h1 {
   color: #fff;
-}
-
-.jewels img {
-  width:100%;
-  display:block;
-}
-
-a {
-  width:600px;
 }
