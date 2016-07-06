@@ -8,21 +8,26 @@ html, body {
     margin: 0 auto;
     padding: 0 10px;
 }
-.header {
+.header li a, .navbar-brand{
     background-color: #333333;
-}
-.header .nav {
-    color: #fff;
-    padding: 20px;
-}
-.nav li {
+    color:#fff;
     display: inline-block;
     margin-right: 25px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 12px;
+    margin-bottom: 0px;
 }
+.navbar, {
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar-light {
+  margin-bottom:0px;
+}
+
 .jumbotron {
     background: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg") no-repeat center center;
     background-size: 100% 100%;
@@ -104,6 +109,10 @@ html, body {
   padding:10px 12px;
 
 
+}
+
+.navbar-light .navbar-toggle .icon-bar {
+    background-color: #fff;
 }
 
 .footer a {
